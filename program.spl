@@ -1,0 +1,11 @@
+[Inputs]
+J1_TMDS_CLK
+J1_TMDS_CLKB
+=J1_TMDS_D[2:0]=
+=J1_TMDS_DB[2:0]=
+[Outputs]
+=LED[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel program
+

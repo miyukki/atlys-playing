@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+program instance_name (
+    .J1_TMDS_D(J1_TMDS_D), 
+    .J1_TMDS_DB(J1_TMDS_DB), 
+    .J1_TMDS_CLK(J1_TMDS_CLK), 
+    .J1_TMDS_CLKB(J1_TMDS_CLKB), 
+    .LED(LED)
+    );
+
+

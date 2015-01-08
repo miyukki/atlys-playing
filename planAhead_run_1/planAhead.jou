@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Dec 11 19:48:05 2014
+# Process ID: 18582
+# Log file: /media/psf/Home/Develop/atlys-playing/planAhead_run_1/planAhead.log
+# Journal file: /media/psf/Home/Develop/atlys-playing/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /media/psf/Home/Develop/atlys-playing/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard {} [get_ports [list {J1_TMDS_DB[2]} {J1_TMDS_DB[1]} {J1_TMDS_DB[0]}]]
+set_property iostandard LVCMOS25 [get_ports [list {J1_TMDS_DB[2]} {J1_TMDS_DB[1]} {J1_TMDS_DB[0]}]]
+set_property iostandard I2C [get_ports [list {J1_TMDS_DB[2]} {J1_TMDS_DB[1]} {J1_TMDS_DB[0]}]]
+set_property is_loc_fixed false [get_ports [list  {J1_TMDS_D[2]} {J1_TMDS_D[1]} {J1_TMDS_D[0]} {J1_TMDS_DB[2]} {J1_TMDS_DB[1]} {J1_TMDS_DB[0]} {LED[7]} {LED[6]} {LED[5]} {LED[4]} {LED[3]} {LED[2]} {LED[1]} {LED[0]} J1_TMDS_CLK J1_TMDS_CLKB]]
+set_property is_loc_fixed true [get_ports [list  {J1_TMDS_D[2]} {J1_TMDS_D[1]} {J1_TMDS_D[0]}]]
+set_property iostandard {} [get_ports [list {J1_TMDS_D[2]} {J1_TMDS_D[1]} {J1_TMDS_D[0]}]]

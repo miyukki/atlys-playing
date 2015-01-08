@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/psf/Home/Develop/atlys-playing/program.ncd
+OUTFILE=/media/psf/Home/Develop/atlys-playing/program.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=/media/psf/Home/Develop/atlys-playing
+LICENSE=WebPack
+USER_INFO=210964772_0_0_776
